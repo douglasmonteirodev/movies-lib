@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
+import MovieCard from "../components/MovieCard.jsx";
 import { API } from "../Tmdb.js";
+import "./MovieGrid.css";
 
 const Home = () => {
   const [topMovies, setTopMovies] = useState([]);
@@ -19,9 +21,10 @@ const Home = () => {
   return (
     <div className='container'>
       <h2 className='title'>Melhores Filmes:</h2>
-      <div className='movies_container'>
+      <div className='movies-container'>
         {topMovies.length === 0 && "CARREGANDO..."}
-        {topMovies.length > 0 && topMovies.map((movie) => <p>{movie.title}</p>)}
+        {topMovies.length > 0 &&
+          topMovies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
       </div>
     </div>
   );
