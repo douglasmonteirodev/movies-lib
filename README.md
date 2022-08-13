@@ -3,7 +3,9 @@
  <p align="center">
       <img src="src/assets/preview/home_preview.png">
  </p
- 
+
+## GitPage: https://douglasmonteirodev.github.io/movie-lib/build/
+
 ## Informações
 
 ### Objetivo desse projeto foi criar um aplicação simples com várias funções interessantes consumindo a API do TMDB
