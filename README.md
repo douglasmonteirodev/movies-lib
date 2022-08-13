@@ -4,7 +4,7 @@
       <img src="src/assets/preview/home_preview.png">
  </p
 
-## GitPage: https://douglasmonteirodev.github.io/movie-lib/build/
+## GitPage: https://douglasmonteirodev.github.io/movies-lib/build/
 
 ## Informações
 
