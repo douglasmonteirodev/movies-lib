@@ -18,7 +18,7 @@
 
 ### Foi criar um site que extraia dados dos filmes de uma api externa, listando e criando um site simples mais bastante funcional.
 
-### <i> PÁGINAS: </i>
+### <i> Infos: </i>
 
 
 - `Todos os dados são extraido da API do TMBD`
